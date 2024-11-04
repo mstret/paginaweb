@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Botines</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegación -->
+    <header>
+        <h1>Botines Pro</h1>
+        <nav>
+            <a href="#catalogo">Catálogo</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Bienvenido a Botines Pro</h2>
+        <p>Encuentra los mejores botines para cada terreno y estilo de juego.</p>
+    </section>
+
+    <!-- Catálogo de productos -->
+    <section id="catalogo">
+        <h2>Catálogo de Botines</h2>
+        <div class="productos">
+            <!-- Producto 1 -->
+            <div class="producto">
+                <img src="botin1.jpg" alt="Botín 1">
+                <h3>Botín Deportivo A</h3>
+                <p>$120.00</p>
+                <button onclick="verDetalle('Botín Deportivo A')">Ver Detalle</button>
+            </div>
+            <!-- Producto 2 -->
+            <div class="producto">
+                <img src="botin2.jpg" alt="Botín 2">
+                <h3>Botín Deportivo B</h3>
+                <p>$150.00</p>
+                <button onclick="verDetalle('Botín Deportivo B')">Ver Detalle</button>
+            </div>
+            <!-- Producto 3 -->
+            <div class="producto">
+                <img src="botin3.jpg" alt="Botín 3">
+                <h3>Botín Deportivo C</h3>
+                <p>$180.00</p>
+                <button onclick="verDetalle('Botín Deportivo C')">Ver Detalle</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes preguntas? Escríbenos a <a href="mailto:contacto@botinespro.com">contacto@botinespro.com</a></p>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
